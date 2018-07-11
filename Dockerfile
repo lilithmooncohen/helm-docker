@@ -4,6 +4,7 @@ RUN apk add --update \
     bash \
     curl \
     git \
+    openssh \
     && \
     rm -rf /var/cache/apk/*
 
